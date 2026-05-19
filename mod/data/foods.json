@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "foods": [
+    {"id":"canned_beans","name":"Canned Beans","mass_g":415,"volume_ml":380,"calories_kcal":360,"water_ml":250,"macros":{"carb_g":54,"fat_g":2,"protein_g":21,"sodium_mg":1100},"digestion":{"gastric_emptying":"medium"}},
+    {"id":"military_ration","name":"Military Ration","mass_g":510,"volume_ml":520,"calories_kcal":1250,"water_ml":80,"macros":{"carb_g":130,"fat_g":48,"protein_g":52,"sodium_mg":2100},"digestion":{"gastric_emptying":"medium"}},
+    {"id":"jerky","name":"Jerky","mass_g":70,"volume_ml":90,"calories_kcal":290,"water_ml":12,"macros":{"carb_g":8,"fat_g":7,"protein_g":45,"sodium_mg":1700},"digestion":{"gastric_emptying":"slow"}},
+    {"id":"crackers","name":"Crackers","mass_g":55,"volume_ml":120,"calories_kcal":250,"water_ml":5,"macros":{"carb_g":33,"fat_g":10,"protein_g":4,"sodium_mg":480},"digestion":{"gastric_emptying":"fast"}},
+    {"id":"vodka","name":"Vodka","mass_g":250,"volume_ml":250,"calories_kcal":560,"water_ml":150,"macros":{"carb_g":0,"fat_g":0,"protein_g":0,"sodium_mg":10},"digestion":{"gastric_emptying":"liquid"}},
+    {"id":"canned_fish","name":"Canned Fish","mass_g":180,"volume_ml":160,"calories_kcal":320,"water_ml":60,"macros":{"carb_g":0,"fat_g":23,"protein_g":27,"sodium_mg":900},"digestion":{"gastric_emptying":"medium"}},
+    {"id":"candy","name":"Candy","mass_g":50,"volume_ml":70,"calories_kcal":210,"water_ml":3,"macros":{"carb_g":46,"fat_g":2,"protein_g":1,"sodium_mg":45},"digestion":{"gastric_emptying":"fast"}},
+    {"id":"instant_noodles","name":"Instant Noodles","mass_g":85,"volume_ml":210,"calories_kcal":380,"water_ml":30,"macros":{"carb_g":50,"fat_g":14,"protein_g":8,"sodium_mg":1500},"digestion":{"gastric_emptying":"medium"}},
+    {"id":"coffee","name":"Coffee","mass_g":250,"volume_ml":250,"calories_kcal":5,"water_ml":245,"macros":{"carb_g":0,"fat_g":0,"protein_g":0,"sodium_mg":20},"digestion":{"gastric_emptying":"liquid"}},
+    {"id":"tea","name":"Tea","mass_g":250,"volume_ml":250,"calories_kcal":2,"water_ml":248,"macros":{"carb_g":0,"fat_g":0,"protein_g":0,"sodium_mg":10},"digestion":{"gastric_emptying":"liquid"}},
+    {"id":"powdered_milk","name":"Powdered Milk","mass_g":35,"volume_ml":90,"calories_kcal":170,"water_ml":12,"macros":{"carb_g":13,"fat_g":9,"protein_g":9,"sodium_mg":160},"digestion":{"gastric_emptying":"medium"}}
+  ]
+}
