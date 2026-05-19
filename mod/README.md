@@ -43,3 +43,29 @@ python scripts/build_vmz.py
 ```
 
 This creates `dist/r2v_nutrition_overhaul.vmz` that you can drop directly into your Road to Vostok mods folder.
+
+
+## UI (HUD + Item Nutrition Info)
+
+Included UI scenes:
+
+- `res://mod/ui/nutrition_hud.tscn`
+- `res://mod/ui/food_info_panel.tscn`
+
+### Nutrition HUD setup
+
+1. Add `nutrition_hud.tscn` to your gameplay UI canvas.
+2. Set `nutrition_system_path` on the HUD node to your `NutritionSystem` node.
+3. The HUD auto-updates from `nutrition_state_changed`.
+
+### Food info panel setup
+
+1. Add `food_info_panel.tscn` to your inventory/loot UI.
+2. At runtime, call:
+
+```gdscript
+food_info_panel.set_food_database(nutrition_system.food_db)
+food_info_panel.show_item(StringName(item_id))
+```
+
+Use `show_item` whenever player highlights/selects a consumable item.
